@@ -1,0 +1,16 @@
+<package>
+  <description brief="legorov">
+
+     legorov
+
+  </description>
+  <author>josh</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/legorov</url>
+  <depend package="mecanumbot"/>
+  <depend package="wiimote"/>
+
+</package>
+
+

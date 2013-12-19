@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+	<!-- start wiimote controller -->
+	<node respawn="true" pkg="wiimote"  type="wiimote_node.py" name="wiimote_node" output="screen"/>
+	<node pkg="mecanumbot" type="teleop_wiimote" name="teleop_wiimote">
+		<param name="~linear_x_scale" value="-0.04" type="double"/>
+		<param name="~angular_z_scale" value="0.12" type="double"/>
+	</node>
+</launch>
